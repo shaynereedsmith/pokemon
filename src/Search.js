@@ -7,6 +7,7 @@ const Search = ({setSearchValue}) => {
   const handleSubmit = (e) => {
       e.preventDefault();
       setSearchValue(name);
+      setName('');
   }
 
   return (
